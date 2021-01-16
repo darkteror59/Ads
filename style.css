@@ -1,0 +1,33 @@
+.Ads_heeder {
+ padding: 24;
+}
+
+.Header_title {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 900;
+    
+
+
+}
+
+.Header_button {
+    float: right;
+    display: inline-block;
+    font-size: 30px;
+    background-color: aqua;
+    color: black;
+    border-radius: 15px;
+    font-weight: 900;
+
+}
+.Ads_content{
+
+
+
+}
+.Ads_box{
+
+
+    
+}
