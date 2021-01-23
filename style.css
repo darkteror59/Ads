@@ -1,11 +1,14 @@
 .Ads_heeder {
  padding: 24;
+ border-bottom: 5px solid #000000;
+ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Header_title {
     display: inline-block;
     font-size: 50px;
     font-weight: 900;
+    cursor: default;
     
 
 
@@ -15,19 +18,88 @@
     float: right;
     display: inline-block;
     font-size: 30px;
-    background-color: aqua;
+    background-color:green;
     color: black;
     border-radius: 15px;
     font-weight: 900;
+    padding: 10px 10px;
+    cursor: pointer;
+}
 
 }
 .Ads_content{
+    margin-top: 24px;
 
 
 
 }
 .Ads_box{
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 15px;
+    border: solid black;
+    border-radius: 24px;
+    margin-left: 24px;
+    cursor: default;
+}
+Box__info {
+    color: rgb(0, 81, 255);
+}
+.Box__name {
+    margin-top: 100px;
+    color: rgb(0, 81, 255);
+}
+.Box_phone {
+    margin-top: 10px;
+    color: rgb(0, 81, 255);
+}
+.Modal_window{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.75);
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
 
+}
+.Modal_form{
+    border-radius: 90px;
+    display: inline-block;
+    background-color: rgb(190, 67, 135);
+    padding: 24px;
+    margin: 0 auto;
+    font-family: "Roboto",sans-serif;
+    border-radius: 9px;
 
-    
+}
+.Form_title{
+    font-size: 32px;
+    font-weight: 700;
+    max-width: 24px;
+
+}
+.Form_content{
+
+}
+.Form_field{
+
+}
+.Form_field label{
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+
+}
+.Form_field input{
+    display: block;
+    width: 302px;
+    margin-bottom:12px 16px;
 }
